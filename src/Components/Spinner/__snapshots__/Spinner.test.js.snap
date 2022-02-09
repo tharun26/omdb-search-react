@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner should render Spinner 1`] = `
+<Spinner>
+  <div
+    className="spinner-overlay"
+  >
+    <div
+      className="spinner-container"
+    />
+  </div>
+</Spinner>
+`;
