@@ -1,0 +1,70 @@
+.container-1 {
+  display: flex;
+  align-items: center;
+  .search-year {
+    color: white;
+    margin-right: 15px;
+    display: flex;
+    gap: 10px;
+    .search-date-picker {
+      input {
+        width: 50px;
+        text-align: center;
+        background: black;
+        border: 0px;
+        font-size: 16px;
+        color: white;
+      }
+    }
+  }
+  .search-type {
+    width: auto;
+  }
+}
+.container-2 {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 2px;
+}
+
+.container-2 input#search {
+  width: 40px;
+  height: 40px;
+  background: #141414;
+  border: none;
+  font-size: 14px;
+  float: left;
+  color: #262626;
+  padding-left: 35px;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  width: 300px;
+  background: black;
+
+  transition: width 0.55s ease;
+}
+
+.container-2 .search-icon {
+  color: #e5e5e5;
+  padding-right: 13px;
+}
+
+.container-2 input#search:focus,
+.container-2 input#search:active {
+  color: white;
+  border: 1px solid white;
+  border-radius: 91px;
+}
+
+.container-2:hover input#search {
+  color: white;
+}
+
+.container-2:hover .search-icon {
+  color: #93a2ad;
+}

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchItem should render SearchItem component if movie item is passed 1`] = `
+<SearchResultContextProvider>
+  <SearchItem
+    item={
+      Object {
+        "id": "tt1392170",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg",
+        "title": "The Hunger Games",
+        "type": "movie",
+        "year": "2012",
+      }
+    }
+  >
+    <div
+      className="search-item"
+      onClick={[Function]}
+    >
+      <div
+        className="search-item__rating-container"
+      />
+      <div
+        className="search-item__img-box"
+      >
+        <img
+          alt="movie"
+          className="search-item__img"
+          src="https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg"
+        />
+      </div>
+      <div
+        className="search-item__text"
+      >
+        <h1
+          className="search-item__title"
+        >
+          The Hunger Games
+        </h1>
+      </div>
+    </div>
+  </SearchItem>
+</SearchResultContextProvider>
+`;
